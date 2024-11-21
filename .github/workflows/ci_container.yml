@@ -40,7 +40,7 @@ jobs:
       with:
         push: true
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/benimage:latest
-    - name: Create EC2 and deploy application to EC2
+    - name: Create EC2 and deploy application to EC2_
       if: success()
       env:
         KEY_PAIR_NAME: ${{ secrets.AWS_KEYPAIR_NAME }}
