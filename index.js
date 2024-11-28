@@ -1,6 +1,7 @@
 //Hapi framework
 const Hapi = require('hapi');
 
+
 //Address and port
 const host = '0.0.0.0';
 const port = 3000; 
